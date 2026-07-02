@@ -24,7 +24,7 @@ This project is a web-based Hospital ER Analytics System developed using Python,
 
 Clone the repository
 
-git clone github.com/tanishkasharma0204-svg/Hospital-ER-Analytics-System
+git clone https://github.com/tanishkasharma0204-svg/Hospital-ER-Analytics-System
 
 Move into project folder
 
