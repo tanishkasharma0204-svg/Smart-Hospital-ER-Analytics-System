@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Arrival_Time,Heart_Rate,Oxygen_Level,Temperature,Blood_Pressure,Severity_Score,Waiting_Time,Treatment_Required,Priority_Score,Priority_Category
+P1,57,Female,2,92,94,104.2,123,2,160,No,25,Normal
+P2,35,Female,10,150,92,104.3,91,8,116,Yes,75,High Priority
+P3,30,Male,4,176,80,104.1,148,7,26,Yes,100,Critical
+P4,15,Male,15,162,75,104.3,106,10,95,Yes,115,Critical
+P5,25,Male,6,70,90,98.7,109,5,98,No,25,Normal
+P6,42,Female,15,84,94,101.5,144,7,171,Yes,35,Moderate
+P7,68,Female,8,83,78,98.9,170,10,65,Yes,90,Critical
+P8,41,Female,16,148,90,98.3,136,4,134,No,40,Moderate
+P9,85,Female,18,132,81,103.0,124,6,105,No,105,Critical
+P10,82,Female,12,136,79,103.8,150,7,8,No,110,Critical
+P11,31,Female,23,119,94,101.3,152,2,42,No,10,Normal
+P12,47,Female,17,97,78,102.6,135,1,155,Yes,50,Moderate
+P13,70,Female,2,85,87,98.2,136,5,11,No,65,High Priority
+P14,9,Male,20,52,93,104.9,95,10,139,No,65,High Priority
+P15,38,Female,17,70,88,100.7,150,3,158,No,45,Moderate
+P16,22,Male,22,97,84,99.6,116,2,149,Yes,40,Moderate
+P17,35,Male,3,61,80,103.9,95,1,152,No,50,Moderate
+P18,71,Female,1,159,94,98.8,165,9,81,Yes,75,High Priority
+P19,64,Male,17,179,93,98.7,137,6,72,Yes,50,Moderate
+P20,31,Male,23,59,95,101.0,99,10,103,No,50,Moderate
+P21,26,Male,23,66,96,99.2,141,4,9,Yes,20,Normal
+P22,51,Female,9,89,77,98.0,115,4,137,No,50,Moderate
+P23,60,Female,21,124,99,99.0,166,9,99,No,65,High Priority
+P24,21,Male,17,52,89,100.5,149,10,143,Yes,80,Critical
+P25,42,Female,3,91,86,99.1,157,5,140,No,55,High Priority
+P26,33,Male,22,59,75,104.7,148,2,108,No,55,High Priority
+P27,52,Female,11,139,95,100.0,131,4,146,No,40,Moderate
+P28,48,Female,16,138,98,104.0,163,3,44,No,50,Moderate
+P29,40,Female,5,129,90,99.7,179,1,56,No,25,Normal
+P30,69,Female,19,67,75,98.0,145,1,100,Yes,45,Moderate
+P31,44,Female,17,155,85,97.6,150,6,28,No,80,Critical
+P32,81,Male,8,168,76,99.8,98,3,53,Yes,75,High Priority
+P33,71,Male,12,147,75,98.5,107,7,179,No,95,Critical
+P34,33,Female,23,89,99,104.9,137,2,126,Yes,25,Normal
+P35,75,Female,23,123,88,98.5,168,10,82,Yes,110,Critical
+P36,28,Female,21,176,78,97.9,164,1,6,No,55,High Priority
+P37,5,Female,3,136,84,104.7,168,5,21,Yes,90,Critical
+P38,27,Female,14,163,79,97.9,128,7,69,No,85,Critical
+P39,33,Female,20,164,81,99.2,161,8,127,No,90,Critical
+P40,25,Female,20,72,91,104.3,120,8,50,Yes,55,High Priority
+P41,15,Male,12,153,91,103.9,108,2,47,Yes,45,Moderate
+P42,52,Female,20,94,75,99.2,107,10,72,No,80,Critical
+P43,67,Female,3,95,77,103.4,171,8,107,No,95,Critical
+P44,75,Male,4,86,96,98.7,174,9,131,No,55,High Priority
+P45,19,Female,17,168,82,98.4,152,7,154,No,85,Critical
+P46,43,Female,12,134,81,104.0,155,6,91,Yes,95,Critical
+P47,27,Male,4,84,89,103.8,132,7,14,Yes,80,Critical
+P48,46,Male,0,135,86,100.0,169,2,160,Yes,60,High Priority
+P49,16,Male,20,89,98,101.7,176,9,146,No,45,Moderate
+P50,55,Female,12,79,96,98.6,109,5,38,No,25,Normal
+P51,6,Male,15,153,81,99.3,147,7,49,No,85,Critical
+P52,31,Male,17,108,83,98.5,110,7,79,Yes,65,High Priority
+P53,29,Male,19,132,75,103.6,122,3,106,Yes,80,Critical
+P54,9,Female,11,99,99,101.1,105,5,109,Yes,25,Normal
+P55,58,Female,12,147,88,98.5,106,2,71,Yes,60,High Priority
+P56,31,Male,5,174,76,98.0,161,1,130,No,55,High Priority
+P57,30,Female,14,110,95,103.9,90,1,102,Yes,20,Normal
+P58,5,Female,19,85,92,98.8,110,10,99,No,50,Moderate
+P59,15,Male,0,84,79,101.3,144,5,51,Yes,55,High Priority
+P60,82,Male,5,79,80,99.4,165,3,101,Yes,55,High Priority
+P61,11,Male,6,159,76,102.2,138,4,8,No,85,Critical
+P62,50,Female,12,103,95,104.2,121,1,52,Yes,20,Normal
+P63,53,Female,10,92,95,99.1,111,4,156,No,20,Normal
+P64,55,Male,15,165,75,99.4,155,9,59,No,95,Critical
+P65,82,Female,16,75,98,97.5,127,2,96,Yes,20,Normal
+P66,35,Male,18,148,90,104.2,166,7,42,Yes,70,High Priority
+P67,28,Male,7,104,94,102.0,176,1,165,Yes,5,Normal
+P68,60,Female,23,147,92,98.4,168,4,85,No,40,Moderate
+P69,78,Male,9,61,97,97.6,117,6,118,No,40,Moderate
+P70,38,Female,8,154,85,97.7,153,7,101,Yes,85,Critical
+P71,47,Male,22,155,87,97.3,109,9,46,No,95,Critical
+P72,51,Male,0,133,98,97.5,126,1,114,No,25,Normal
+P73,84,Male,1,101,89,100.2,115,4,61,No,60,High Priority
+P74,54,Female,10,105,81,102.7,153,10,38,Yes,95,Critical
+P75,6,Female,9,65,78,102.1,116,2,33,No,55,High Priority
+P76,59,Female,20,90,91,103.3,141,6,8,No,45,Moderate
+P77,19,Male,2,127,89,99.8,149,6,25,No,80,Critical
+P78,75,Male,7,135,89,100.5,114,5,41,No,85,Critical
+P79,43,Male,9,70,77,101.2,174,3,129,No,45,Moderate
+P80,53,Male,18,63,86,101.1,113,6,63,No,60,High Priority
+P81,46,Male,10,179,75,98.7,152,1,141,Yes,55,High Priority
+P82,6,Female,17,75,97,98.5,94,4,171,Yes,20,Normal
+P83,89,Male,3,57,83,101.1,91,7,72,Yes,75,High Priority
+P84,27,Male,3,146,83,103.6,130,5,146,No,90,Critical
+P85,75,Male,5,121,88,101.4,135,7,178,No,95,Critical
+P86,19,Male,7,155,93,102.5,98,6,88,Yes,65,High Priority
+P87,30,Female,16,129,81,100.1,112,9,177,No,95,Critical
+P88,50,Male,6,84,75,102.2,153,4,22,Yes,65,High Priority
+P89,69,Male,3,83,87,104.4,135,5,130,Yes,80,Critical
+P90,27,Male,2,142,91,100.7,172,2,161,Yes,30,Moderate
+P91,18,Male,23,176,84,98.2,114,10,73,Yes,100,Critical
+P92,25,Male,3,138,75,101.8,104,7,123,Yes,85,Critical
+P93,67,Male,3,87,93,97.7,91,10,10,Yes,60,High Priority
+P94,73,Male,11,79,84,101.3,108,9,141,Yes,85,Critical
+P95,72,Female,8,119,76,102.5,135,2,59,No,65,High Priority
+P96,10,Male,14,148,94,104.9,146,9,157,Yes,80,Critical
+P97,74,Male,20,162,83,103.0,152,6,131,Yes,105,Critical
+P98,4,Female,4,115,92,99.4,118,8,124,No,40,Moderate
+P99,82,Female,8,157,81,100.5,135,6,94,No,90,Critical
+P100,52,Male,15,173,98,97.2,106,1,63,No,25,Normal
+P101,52,Female,14,61,77,98.2,95,10,172,No,80,Critical
+P102,44,Female,17,70,93,102.6,121,5,26,No,40,Moderate
+P103,9,Female,5,54,97,98.2,154,8,42,Yes,40,Moderate
+P104,33,Male,2,71,86,98.4,178,9,11,Yes,75,High Priority
+P105,82,Male,5,174,92,103.6,151,4,29,Yes,65,High Priority
+P106,32,Female,14,141,82,98.0,99,5,66,No,75,High Priority
+P107,30,Male,9,124,83,102.2,147,8,60,No,105,Critical
+P108,81,Male,11,140,91,97.9,137,2,144,Yes,40,Moderate
+P109,72,Male,2,134,80,103.4,137,9,121,Yes,120,Critical
+P110,25,Male,0,167,86,101.8,163,5,75,No,75,High Priority
+P111,69,Female,13,72,94,98.3,139,5,148,Yes,35,Moderate
+P112,59,Male,7,133,95,100.9,101,7,53,No,55,High Priority
+P113,14,Male,22,149,78,101.4,97,8,145,No,90,Critical
+P114,79,Female,7,118,83,102.4,168,5,147,No,80,Critical
+P115,34,Female,11,173,92,104.8,142,6,19,No,65,High Priority
+P116,14,Female,2,90,92,101.7,102,10,73,Yes,50,Moderate
+P117,27,Female,10,53,88,97.2,149,7,146,Yes,65,High Priority
+P118,32,Male,4,173,82,99.7,159,9,85,No,95,Critical
+P119,71,Female,7,138,89,100.0,143,2,34,Yes,70,High Priority
+P120,28,Female,6,164,90,101.1,94,8,25,No,60,High Priority
+P121,31,Male,14,134,77,103.3,107,7,24,Yes,100,Critical
+P122,62,Female,1,165,80,98.6,144,9,130,Yes,95,Critical
+P123,31,Female,22,109,96,100.3,111,4,95,No,20,Normal
+P124,29,Female,10,150,88,100.6,145,4,168,Yes,70,High Priority
+P125,65,Male,4,53,88,103.3,98,9,101,Yes,90,Critical
+P126,78,Female,6,79,76,98.4,90,10,1,No,90,Critical
+P127,11,Female,12,58,85,103.8,148,3,29,Yes,60,High Priority
+P128,74,Female,14,155,89,101.7,94,5,120,Yes,85,Critical
+P129,6,Male,1,147,89,99.4,172,4,114,No,70,High Priority
+P130,33,Female,9,58,79,97.5,138,5,28,No,55,High Priority
+P131,83,Female,22,82,77,98.7,94,8,81,No,80,Critical
+P132,54,Female,21,129,82,104.5,125,1,130,No,70,High Priority
+P133,44,Female,19,176,86,103.4,135,9,103,Yes,110,Critical
+P134,63,Female,15,174,90,104.7,152,2,136,Yes,45,Moderate
+P135,26,Female,17,77,79,98.5,125,9,152,No,75,High Priority
+P136,14,Female,15,145,94,104.7,172,10,49,Yes,85,Critical
+P137,29,Female,20,114,78,98.2,140,3,50,Yes,45,Moderate
+P138,6,Female,4,52,76,101.0,115,7,42,Yes,65,High Priority
+P139,5,Female,1,118,87,102.4,135,3,49,No,60,High Priority
+P140,28,Female,18,127,99,104.4,95,2,23,Yes,45,Moderate
+P141,57,Male,0,122,77,99.5,152,2,138,No,60,High Priority
+P142,48,Male,23,99,79,104.6,125,10,57,No,95,Critical
+P143,49,Female,12,51,80,99.1,122,8,24,Yes,70,High Priority
+P144,73,Female,8,149,94,103.7,144,8,68,Yes,85,Critical
+P145,48,Male,11,99,96,104.6,166,6,51,No,45,Moderate
+P146,20,Female,17,101,82,99.4,127,2,152,No,40,Moderate
+P147,21,Male,0,72,91,101.8,98,10,53,Yes,50,Moderate
+P148,65,Female,23,130,76,102.7,98,5,170,Yes,90,Critical
+P149,76,Male,13,137,83,97.5,165,2,24,No,70,High Priority
+P150,32,Male,5,54,87,101.5,104,9,62,Yes,75,High Priority
+P151,75,Male,15,156,95,100.6,137,2,120,No,40,Moderate
+P152,59,Female,1,79,88,98.4,134,3,111,Yes,45,Moderate
+P153,81,Female,10,58,90,98.8,125,7,169,Yes,45,Moderate
+P154,41,Male,22,95,77,99.4,141,10,148,Yes,80,Critical
+P155,40,Female,22,166,94,97.3,176,9,145,Yes,65,High Priority
+P156,78,Female,14,167,79,97.5,173,10,96,No,110,Critical
+P157,9,Male,10,169,94,99.1,91,3,148,No,35,Moderate
+P158,42,Female,0,71,84,101.9,124,7,112,Yes,65,High Priority
+P159,79,Female,8,94,90,97.4,90,2,45,Yes,20,Normal
+P160,28,Male,23,71,86,100.7,138,7,7,No,65,High Priority
+P161,79,Male,1,88,83,99.4,152,2,149,Yes,50,Moderate
+P162,46,Male,14,70,91,103.4,93,9,131,No,60,High Priority
+P163,16,Male,5,61,93,101.6,115,6,78,No,30,Moderate
+P164,84,Female,2,51,95,100.7,129,3,73,Yes,25,Normal
+P165,33,Male,20,159,96,99.7,161,2,154,Yes,30,Moderate
+P166,60,Male,9,77,84,99.9,96,10,22,Yes,80,Critical
+P167,85,Male,22,116,78,100.0,95,3,82,No,55,High Priority
+P168,80,Male,0,156,79,102.3,145,2,177,Yes,85,Critical
+P169,42,Female,16,100,84,103.3,93,7,155,Yes,80,Critical
+P170,89,Female,17,127,75,103.2,125,4,138,Yes,95,Critical
+P171,83,Female,23,53,88,99.8,92,5,82,No,65,High Priority
+P172,30,Female,15,72,78,104.3,155,5,43,Yes,70,High Priority
+P173,22,Male,16,158,92,98.9,148,3,111,No,35,Moderate
+P174,51,Male,4,120,91,104.4,103,2,174,Yes,25,Normal
+P175,89,Male,3,84,93,103.3,179,9,152,No,70,High Priority
+P176,47,Male,14,121,88,103.6,162,1,143,Yes,70,High Priority
+P177,7,Male,15,149,99,104.8,101,8,84,Yes,75,High Priority
+P178,8,Female,10,176,94,97.4,153,10,50,Yes,70,High Priority
+P179,56,Male,22,151,91,104.3,101,9,8,Yes,80,Critical
+P180,58,Female,17,172,86,102.4,127,3,36,No,80,Critical
+P181,15,Female,20,87,75,98.9,147,6,40,Yes,60,High Priority
+P182,24,Female,12,145,91,102.0,120,9,150,Yes,65,High Priority
+P183,4,Female,8,125,80,101.9,106,6,102,No,80,Critical
+P184,72,Male,14,62,99,98.1,108,4,13,Yes,30,Moderate
+P185,78,Female,4,126,94,99.5,142,8,52,No,70,High Priority
+P186,80,Female,15,116,78,104.6,118,5,136,Yes,80,Critical
+P187,17,Male,13,167,83,102.5,130,4,177,Yes,85,Critical
+P188,71,Female,22,130,84,100.4,166,10,26,Yes,110,Critical
+P189,14,Female,6,102,86,99.3,93,6,167,Yes,60,High Priority
+P190,76,Female,4,133,80,104.8,121,6,141,Yes,105,Critical
+P191,51,Male,22,59,87,102.1,176,1,80,Yes,50,Moderate
+P192,41,Female,4,149,90,104.9,164,9,167,No,80,Critical
+P193,72,Female,0,155,98,103.5,104,2,162,Yes,55,High Priority
+P194,49,Female,11,54,76,99.4,149,7,92,No,65,High Priority
+P195,37,Female,17,103,90,99.5,179,6,40,No,30,Moderate
+P196,6,Male,23,122,88,104.9,102,3,23,No,80,Critical
+P197,27,Male,10,105,90,97.7,148,7,155,No,35,Moderate
+P198,39,Female,22,68,89,102.4,143,3,61,No,60,High Priority
+P199,75,Male,12,57,94,100.8,172,1,108,Yes,15,Normal
+P200,26,Female,0,171,96,102.5,172,6,168,Yes,65,High Priority
+P201,66,Female,14,175,89,103.8,135,2,81,Yes,85,Critical
+P202,84,Female,7,174,86,101.0,108,6,171,Yes,90,Critical
+P203,57,Male,5,138,78,102.9,123,7,31,Yes,100,Critical
+P204,5,Male,6,169,83,104.1,133,10,88,No,115,Critical
+P205,77,Female,12,68,82,103.6,149,3,157,Yes,70,High Priority
+P206,38,Female,23,157,94,103.6,115,9,9,No,80,Critical
+P207,33,Female,5,99,83,99.5,133,2,50,Yes,40,Moderate
+P208,18,Female,22,72,81,104.5,175,10,74,Yes,95,Critical
+P209,5,Female,11,100,79,104.2,166,10,17,No,95,Critical
+P210,37,Male,4,138,78,97.4,108,4,157,No,70,High Priority
+P211,35,Male,1,62,89,102.4,121,2,23,Yes,55,High Priority
+P212,51,Female,23,95,75,102.4,90,4,6,No,65,High Priority
+P213,64,Male,7,141,85,102.3,175,8,32,Yes,105,Critical
+P214,68,Female,8,101,82,97.1,110,5,179,Yes,65,High Priority
+P215,77,Female,18,99,92,102.3,176,10,107,Yes,75,High Priority
+P216,61,Male,4,119,97,104.6,99,1,72,No,20,Normal
+P217,19,Female,15,50,98,102.5,119,4,32,Yes,35,Moderate
+P218,89,Female,7,52,98,100.5,146,7,29,Yes,45,Moderate
+P219,25,Male,19,108,78,100.3,130,3,71,No,45,Moderate
+P220,62,Male,22,163,88,102.5,101,5,13,No,90,Critical
+P221,88,Male,6,151,95,97.6,127,9,31,Yes,75,High Priority
+P222,86,Female,5,85,84,101.8,148,10,112,Yes,90,Critical
+P223,76,Female,3,107,90,97.1,113,6,34,No,40,Moderate
+P224,15,Female,7,60,92,103.2,126,2,62,No,25,Normal
+P225,45,Male,17,168,79,102.3,153,1,141,No,70,High Priority
+P226,86,Male,10,84,80,102.0,128,10,116,No,90,Critical
+P227,37,Female,7,90,78,105.0,129,7,47,No,80,Critical
+P228,71,Female,19,81,83,98.6,100,2,31,No,50,Moderate
+P229,9,Male,7,111,81,99.4,123,3,121,No,45,Moderate
+P230,52,Female,8,146,95,104.1,135,9,28,No,80,Critical
+P231,75,Male,21,105,87,98.3,122,7,66,No,75,High Priority
+P232,80,Male,16,172,82,100.6,153,1,67,No,65,High Priority
+P233,68,Male,3,151,82,101.0,163,1,54,No,65,High Priority
+P234,32,Male,20,123,89,97.5,162,9,66,No,95,Critical
+P235,55,Male,17,70,80,97.7,99,7,43,No,65,High Priority
+P236,69,Female,17,126,83,98.6,133,8,147,Yes,100,Critical
+P237,58,Male,7,121,75,98.3,109,4,41,No,70,High Priority
+P238,5,Male,0,114,98,104.5,110,3,161,No,30,Moderate
+P239,1,Female,14,88,84,104.3,127,6,114,Yes,75,High Priority
+P240,52,Female,21,148,98,99.6,120,10,94,Yes,70,High Priority
+P241,38,Female,13,90,97,101.8,148,6,174,Yes,30,Moderate
+P242,68,Male,15,149,95,104.8,142,8,116,Yes,85,Critical
+P243,43,Female,9,99,75,99.1,155,3,114,Yes,45,Moderate
+P244,74,Male,0,172,97,97.6,123,10,157,Yes,80,Critical
+P245,50,Female,21,139,91,104.8,96,1,50,No,40,Moderate
+P246,4,Female,8,105,80,104.0,131,3,120,No,60,High Priority
+P247,81,Male,4,101,82,101.0,156,8,96,Yes,80,Critical
+P248,32,Male,5,112,99,103.0,108,10,134,No,65,High Priority
+P249,63,Male,7,64,91,104.1,157,9,138,Yes,60,High Priority
+P250,39,Male,11,149,93,103.8,154,5,53,No,60,High Priority
+P251,32,Female,13,91,88,102.9,119,6,153,Yes,75,High Priority
+P252,6,Female,1,97,94,103.5,162,8,43,No,55,High Priority
+P253,50,Male,4,101,93,102.4,162,4,46,Yes,35,Moderate
+P254,16,Male,19,123,88,102.6,100,1,101,Yes,70,High Priority
+P255,11,Male,19,171,82,99.1,142,9,77,Yes,95,Critical
+P256,43,Male,14,178,90,101.5,122,10,34,No,70,High Priority
+P257,36,Female,8,163,87,98.9,148,9,80,No,95,Critical
+P258,77,Male,17,91,81,101.1,131,3,176,No,55,High Priority
+P259,26,Male,9,69,76,98.2,125,8,7,Yes,70,High Priority
+P260,18,Male,20,67,97,99.2,121,6,142,No,30,Moderate
+P261,43,Male,8,138,89,104.2,107,4,93,Yes,85,Critical
+P262,75,Male,22,70,80,98.0,98,5,94,No,65,High Priority
+P263,46,Male,10,153,83,104.3,103,1,44,No,70,High Priority
+P264,65,Male,15,143,85,97.3,134,4,150,Yes,70,High Priority
+P265,41,Female,18,177,81,104.1,126,6,103,No,95,Critical
+P266,85,Female,15,112,99,102.5,160,10,96,No,75,High Priority
+P267,77,Male,15,159,98,99.7,177,7,45,No,65,High Priority
+P268,86,Male,7,138,98,104.5,112,1,9,No,50,Moderate
+P269,12,Male,20,133,84,98.7,130,4,129,Yes,70,High Priority
+P270,75,Male,0,148,95,102.4,94,1,24,No,50,Moderate
+P271,48,Female,2,126,80,97.4,102,1,7,Yes,55,High Priority
+P272,3,Female,20,78,86,103.2,168,9,42,Yes,90,Critical
+P273,48,Male,16,157,85,101.7,156,8,157,No,90,Critical
+P274,4,Female,23,65,99,103.8,160,1,117,No,20,Normal
+P275,85,Female,14,72,91,98.5,170,10,160,Yes,60,High Priority
+P276,52,Male,17,145,83,101.5,172,4,68,No,70,High Priority
+P277,54,Female,10,165,93,98.4,135,6,5,No,50,Moderate
+P278,64,Male,0,111,81,100.2,122,7,140,No,65,High Priority
+P279,75,Male,12,129,77,98.9,112,4,146,No,80,Critical
+P280,74,Male,20,115,77,99.6,149,3,157,Yes,55,High Priority
+P281,33,Female,2,153,77,98.9,150,7,20,No,85,Critical
+P282,46,Male,22,88,92,103.9,108,9,135,No,60,High Priority
+P283,54,Female,23,148,95,102.2,176,10,40,Yes,85,Critical
+P284,75,Male,7,96,81,99.1,101,7,13,No,75,High Priority
+P285,13,Female,19,69,88,104.9,93,4,102,Yes,65,High Priority
+P286,25,Male,17,81,88,103.1,168,3,153,Yes,60,High Priority
+P287,79,Male,13,102,96,100.5,147,7,26,No,45,Moderate
+P288,39,Male,14,149,80,104.9,101,4,80,Yes,85,Critical
+P289,26,Female,18,162,99,98.7,156,4,77,Yes,40,Moderate
+P290,34,Female,17,143,78,103.1,126,2,51,No,75,High Priority
+P291,66,Male,2,156,87,100.5,178,2,71,Yes,70,High Priority
+P292,45,Female,19,139,96,104.1,92,3,37,Yes,50,Moderate
+P293,79,Female,15,148,78,101.4,165,4,171,No,80,Critical
+P294,45,Male,6,81,79,97.4,123,7,47,No,65,High Priority
+P295,68,Male,13,141,76,100.6,100,2,44,Yes,70,High Priority
+P296,84,Female,11,107,86,104.7,119,4,108,No,75,High Priority
+P297,87,Male,23,172,95,104.4,113,1,131,No,50,Moderate
+P298,82,Male,0,165,80,98.6,110,2,15,No,70,High Priority
+P299,27,Female,16,97,92,104.6,175,5,135,Yes,40,Moderate
+P300,47,Male,21,62,95,97.1,138,7,42,No,35,Moderate
+P301,63,Female,1,117,82,98.8,146,1,141,No,35,Moderate
+P302,6,Female,7,61,80,104.7,94,8,68,No,85,Critical
+P303,14,Male,7,81,82,99.1,93,4,63,No,50,Moderate
+P304,63,Female,2,155,85,99.1,175,2,112,Yes,60,High Priority
+P305,73,Male,14,135,94,100.3,90,9,119,Yes,75,High Priority
+P306,66,Male,9,150,77,100.3,107,5,56,Yes,85,Critical
+P307,34,Male,13,161,93,103.2,92,3,13,No,50,Moderate
+P308,59,Female,21,107,98,103.9,162,8,36,No,55,High Priority
+P309,17,Female,10,99,81,100.5,121,1,116,No,35,Moderate
+P310,68,Male,17,53,83,101.4,141,1,115,No,45,Moderate
+P311,47,Female,20,78,97,103.0,135,6,84,Yes,45,Moderate
+P312,12,Female,4,61,83,98.7,152,2,170,No,40,Moderate
+P313,5,Female,13,91,98,104.9,111,3,58,No,30,Moderate
+P314,67,Male,12,51,75,99.6,129,3,140,Yes,55,High Priority
+P315,27,Female,3,64,78,104.7,137,2,49,No,55,High Priority
+P316,58,Female,0,66,80,99.3,94,6,138,No,60,High Priority
+P317,34,Female,8,128,89,104.3,174,1,51,No,70,High Priority
+P318,69,Male,20,133,96,98.2,102,7,75,Yes,65,High Priority
+P319,81,Female,19,162,95,98.3,171,3,73,Yes,45,Moderate
+P320,3,Female,20,176,86,100.6,148,3,28,No,65,High Priority
+P321,81,Male,8,149,95,98.2,169,3,68,Yes,45,Moderate
+P322,56,Female,16,92,76,101.8,168,8,97,No,70,High Priority
+P323,38,Male,6,117,99,98.2,111,6,10,Yes,30,Moderate
+P324,60,Male,6,149,95,103.8,175,9,105,No,80,Critical
+P325,87,Male,9,142,84,97.6,150,7,76,No,95,Critical
+P326,57,Male,19,120,86,102.9,129,1,105,No,50,Moderate
+P327,65,Male,19,126,96,98.9,132,5,99,Yes,45,Moderate
+P328,47,Male,4,114,97,104.9,130,3,17,No,30,Moderate
+P329,50,Male,17,95,86,102.9,176,5,16,Yes,70,High Priority
+P330,8,Male,13,50,89,101.1,176,8,129,No,70,High Priority
+P331,15,Male,3,154,79,98.2,154,2,111,Yes,60,High Priority
+P332,56,Male,5,88,76,97.5,168,3,165,Yes,45,Moderate
+P333,50,Male,20,73,82,97.5,144,5,106,Yes,55,High Priority
+P334,68,Female,23,145,82,101.1,133,1,148,No,65,High Priority
+P335,39,Female,16,153,88,104.5,132,9,25,Yes,110,Critical
+P336,25,Female,20,179,77,100.3,169,10,91,No,100,Critical
+P337,83,Female,12,87,89,99.8,143,4,47,Yes,60,High Priority
+P338,37,Male,10,91,93,100.7,170,10,84,Yes,50,Moderate
+P339,58,Female,15,104,99,97.5,167,8,66,No,40,Moderate
+P340,53,Female,20,141,95,100.5,138,6,107,No,50,Moderate
+P341,24,Male,6,128,91,103.5,149,9,142,Yes,80,Critical
+P342,34,Female,18,98,95,99.8,109,7,164,Yes,35,Moderate
+P343,60,Male,22,119,93,97.3,166,5,87,No,25,Normal
+P344,32,Female,15,172,75,101.7,95,6,132,Yes,80,Critical
+P345,80,Female,19,144,75,103.9,159,7,164,Yes,110,Critical
+P346,83,Female,2,139,99,98.6,100,2,125,Yes,40,Moderate
+P347,59,Female,23,65,88,99.2,178,8,105,Yes,70,High Priority
+P348,5,Female,7,89,88,103.0,151,8,6,Yes,85,Critical
+P349,55,Female,23,149,94,103.4,141,9,100,Yes,80,Critical
+P350,32,Male,21,106,80,101.0,105,9,94,Yes,75,High Priority
+P351,51,Female,22,151,88,104.0,90,9,78,No,110,Critical
+P352,33,Female,2,145,96,104.6,175,8,132,No,75,High Priority
+P353,27,Male,11,69,84,101.4,106,2,28,No,40,Moderate
+P354,43,Female,0,54,77,103.7,173,4,119,No,65,High Priority
+P355,87,Male,13,79,83,99.6,111,8,31,Yes,80,Critical
+P356,10,Male,23,71,92,99.7,107,7,65,Yes,35,Moderate
+P357,89,Female,20,157,76,99.2,170,8,16,Yes,100,Critical
+P358,85,Male,22,110,98,97.2,154,9,79,Yes,55,High Priority
+P359,81,Female,18,163,77,99.7,165,7,133,Yes,95,Critical
+P360,61,Female,13,103,75,99.3,142,7,162,Yes,65,High Priority
+P361,63,Male,19,73,84,104.9,97,5,99,Yes,70,High Priority
+P362,18,Male,13,161,99,98.2,105,6,63,Yes,50,Moderate
+P363,38,Female,12,138,76,100.3,108,7,20,No,85,Critical
+P364,56,Female,12,58,93,102.6,91,8,110,No,55,High Priority
+P365,67,Male,17,179,91,99.7,162,10,88,No,80,Critical
+P366,26,Male,6,151,85,97.4,140,2,81,Yes,60,High Priority
+P367,89,Male,23,67,82,103.8,119,5,33,Yes,80,Critical
+P368,56,Male,8,100,84,103.8,159,7,69,No,80,Critical
+P369,77,Male,15,153,94,103.2,125,4,71,No,65,High Priority
+P370,7,Female,17,110,86,104.7,170,6,29,Yes,75,High Priority
+P371,45,Male,7,167,75,100.7,101,10,165,Yes,100,Critical
+P372,30,Female,10,122,94,101.0,100,2,171,No,30,Moderate
+P373,6,Female,12,115,83,99.5,165,6,136,No,60,High Priority
+P374,11,Female,12,76,84,104.0,130,8,64,No,85,Critical
+P375,44,Female,22,75,92,99.5,98,7,98,No,35,Moderate
+P376,22,Male,11,95,85,101.7,178,7,95,Yes,65,High Priority
+P377,11,Male,23,84,78,101.1,149,7,119,Yes,65,High Priority
+P378,26,Female,8,155,92,103.4,144,7,55,No,70,High Priority
+P379,72,Male,11,112,95,102.6,124,1,121,Yes,30,Moderate
+P380,75,Female,8,117,96,102.1,122,7,83,Yes,60,High Priority
+P381,21,Female,14,160,89,98.1,143,2,137,No,60,High Priority
+P382,25,Male,17,164,91,97.4,122,3,37,No,35,Moderate
+P383,1,Female,10,75,83,100.3,173,1,118,Yes,35,Moderate
+P384,5,Male,12,142,80,100.5,110,2,158,Yes,60,High Priority
+P385,36,Male,9,78,76,104.7,169,8,50,No,85,Critical
+P386,27,Female,20,118,92,102.3,135,2,43,Yes,25,Normal
+P387,9,Female,20,61,90,100.3,115,4,55,Yes,20,Normal
+P388,37,Male,11,133,94,99.8,165,9,160,No,65,High Priority
+P389,31,Female,21,86,90,103.0,114,2,104,Yes,25,Normal
+P390,23,Male,22,75,92,97.1,110,2,103,Yes,10,Normal
+P391,76,Male,4,81,96,100.0,178,8,75,Yes,50,Moderate
+P392,83,Male,0,127,99,97.2,124,8,123,No,70,High Priority
+P393,61,Female,22,89,93,98.5,178,8,7,Yes,40,Moderate
+P394,69,Female,14,168,76,97.1,118,3,166,Yes,75,High Priority
+P395,81,Male,0,125,99,98.4,107,10,68,No,80,Critical
+P396,65,Male,17,172,90,101.0,101,9,86,Yes,65,High Priority
+P397,45,Female,13,162,75,100.5,169,6,167,Yes,80,Critical
+P398,11,Male,8,106,96,101.3,161,6,87,Yes,30,Moderate
+P399,13,Female,4,111,96,98.0,112,1,104,Yes,5,Normal
+P400,19,Male,0,132,98,98.4,96,7,142,No,55,High Priority
+P401,33,Female,15,179,97,102.4,105,6,43,Yes,65,High Priority
+P402,81,Female,4,54,93,104.3,167,7,43,No,60,High Priority
+P403,14,Female,23,99,91,101.5,152,10,173,Yes,50,Moderate
+P404,31,Male,7,146,96,99.7,164,4,116,Yes,40,Moderate
+P405,73,Female,4,108,97,101.9,169,9,30,No,55,High Priority
+P406,17,Female,3,143,79,98.8,112,1,15,No,55,High Priority
+P407,81,Female,1,50,86,99.1,129,8,112,Yes,80,Critical
+P408,68,Female,16,149,90,103.0,109,9,51,Yes,90,Critical
+P409,65,Male,1,119,79,100.4,131,2,15,Yes,40,Moderate
+P410,5,Female,8,72,94,102.4,122,1,160,No,20,Normal
+P411,55,Female,2,89,95,101.3,105,7,142,No,35,Moderate
+P412,39,Male,16,121,99,102.7,124,3,150,Yes,50,Moderate
+P413,35,Female,13,168,87,103.0,160,4,89,No,85,Critical
+P414,62,Male,8,80,78,97.9,165,4,19,Yes,50,Moderate
+P415,55,Female,20,143,78,104.1,129,5,91,Yes,90,Critical
+P416,81,Male,22,60,79,103.0,172,3,138,Yes,70,High Priority
+P417,67,Male,19,88,76,101.8,106,4,173,No,60,High Priority
+P418,12,Female,12,73,75,100.2,152,1,17,No,35,Moderate
+P419,29,Male,3,167,86,101.6,104,5,23,No,75,High Priority
+P420,24,Female,12,164,78,104.9,123,8,153,Yes,105,Critical
+P421,86,Female,6,175,77,102.8,102,7,148,Yes,110,Critical
+P422,85,Female,9,72,79,103.2,141,6,137,No,85,Critical
+P423,24,Male,7,68,94,99.5,98,8,68,No,40,Moderate
+P424,18,Female,17,128,98,103.2,154,6,27,Yes,65,High Priority
+P425,64,Male,22,144,76,102.7,99,6,79,Yes,95,Critical
+P426,71,Female,15,133,76,97.2,97,3,37,Yes,75,High Priority
+P427,5,Female,16,130,85,97.1,120,2,170,Yes,60,High Priority
+P428,66,Male,0,84,84,102.9,148,5,177,Yes,80,Critical
+P429,9,Male,11,95,79,104.6,126,1,98,No,50,Moderate
+P430,66,Male,11,116,85,98.1,169,6,112,No,70,High Priority
+P431,85,Male,12,155,94,104.1,174,9,176,No,90,Critical
+P432,3,Male,6,123,85,103.7,121,8,12,Yes,105,Critical
+P433,35,Female,22,103,87,98.5,177,3,101,No,45,Moderate
+P434,42,Female,21,122,89,100.7,170,6,26,No,80,Critical
+P435,59,Male,23,74,95,104.1,97,1,98,Yes,20,Normal
+P436,80,Male,11,129,83,97.7,170,6,175,No,90,Critical
+P437,41,Female,21,172,83,104.8,100,9,10,Yes,110,Critical
+P438,34,Female,18,63,97,102.6,148,3,63,Yes,30,Moderate
+P439,25,Male,23,85,80,97.4,120,5,164,Yes,55,High Priority
+P440,39,Female,8,144,89,104.2,131,2,165,No,75,High Priority
+P441,76,Male,9,127,84,103.0,103,3,121,No,90,Critical
+P442,56,Female,1,177,81,104.0,111,6,47,No,95,Critical
+P443,30,Male,2,96,85,98.9,110,5,107,No,55,High Priority
+P444,49,Female,22,78,83,102.4,155,7,98,Yes,80,Critical
+P445,71,Male,2,80,84,101.7,117,9,175,Yes,85,Critical
+P446,81,Female,13,86,96,103.0,140,3,7,No,40,Moderate
+P447,85,Male,19,151,96,97.9,127,6,152,Yes,60,High Priority
+P448,79,Male,10,127,91,100.5,90,1,39,Yes,35,Moderate
+P449,30,Female,8,94,95,97.1,95,8,2,Yes,40,Moderate
+P450,5,Male,7,108,82,99.0,146,3,134,Yes,45,Moderate
+P451,82,Female,2,131,90,98.8,104,10,168,No,80,Critical
+P452,82,Female,5,58,78,104.7,156,2,159,No,65,High Priority
+P453,49,Female,12,50,98,98.5,113,4,56,Yes,20,Normal
+P454,12,Male,12,80,88,104.2,139,10,100,Yes,95,Critical
+P455,46,Male,18,153,76,98.1,119,10,143,No,100,Critical
+P456,38,Female,12,140,85,98.2,123,8,173,Yes,90,Critical
+P457,51,Female,14,115,77,103.8,149,1,100,Yes,50,Moderate
+P458,3,Female,4,144,98,104.3,91,4,3,Yes,55,High Priority
+P459,85,Male,1,143,87,97.4,120,4,35,Yes,80,Critical
+P460,31,Female,12,144,78,99.0,127,9,76,Yes,95,Critical
+P461,50,Female,19,122,90,97.4,141,9,26,Yes,65,High Priority
+P462,26,Male,23,79,88,99.1,120,4,7,No,50,Moderate
+P463,62,Female,16,155,97,98.5,178,8,17,No,60,High Priority
+P464,8,Female,2,83,92,101.8,165,6,167,Yes,30,Moderate
+P465,86,Male,2,68,94,99.1,120,6,119,No,40,Moderate
+P466,73,Male,18,109,98,103.8,128,8,134,No,65,High Priority
+P467,39,Female,11,66,95,102.1,116,8,125,No,55,High Priority
+P468,4,Male,14,74,95,97.1,91,4,44,Yes,20,Normal
+P469,7,Male,1,155,92,100.8,170,9,23,Yes,65,High Priority
+P470,5,Male,9,69,87,103.5,124,6,149,Yes,75,High Priority
+P471,74,Female,0,109,95,97.2,96,5,106,No,35,Moderate
+P472,25,Male,0,102,86,102.3,97,1,140,Yes,50,Moderate
+P473,24,Female,10,67,75,100.3,154,4,31,No,50,Moderate
+P474,47,Female,6,100,92,97.8,150,8,69,Yes,40,Moderate
+P475,78,Female,20,146,92,104.5,112,4,21,Yes,65,High Priority
+P476,50,Female,11,83,92,104.1,176,8,149,No,55,High Priority
+P477,23,Female,3,137,80,102.8,91,6,171,Yes,95,Critical
+P478,15,Male,18,169,83,98.8,120,5,78,Yes,75,High Priority
+P479,70,Female,5,59,76,101.8,115,5,89,No,65,High Priority
+P480,66,Male,21,176,95,101.3,131,9,141,Yes,75,High Priority
+P481,15,Male,1,167,90,99.0,175,4,47,No,40,Moderate
+P482,45,Male,18,62,92,101.9,121,4,61,Yes,20,Normal
+P483,21,Female,4,115,85,99.0,92,3,111,No,45,Moderate
+P484,29,Female,20,136,84,101.9,105,7,107,No,85,Critical
+P485,18,Female,0,143,98,102.9,137,9,2,Yes,80,Critical
+P486,55,Male,23,169,83,101.5,109,1,67,No,55,High Priority
+P487,44,Male,23,179,94,102.3,147,4,153,No,55,High Priority
+P488,36,Male,10,139,81,104.3,123,8,29,Yes,105,Critical
+P489,21,Female,10,133,92,104.6,147,2,165,No,45,Moderate
+P490,26,Male,1,69,91,100.7,125,6,81,No,30,Moderate
+P491,86,Female,9,75,81,102.7,125,4,138,Yes,75,High Priority
+P492,57,Male,12,166,93,100.5,125,9,165,Yes,65,High Priority
+P493,68,Female,23,139,85,99.1,107,3,61,Yes,75,High Priority
+P494,20,Female,5,64,77,101.1,158,3,116,No,45,Moderate
+P495,26,Female,12,59,80,104.6,102,8,48,No,85,Critical
+P496,7,Female,13,141,93,104.8,122,2,46,No,45,Moderate
+P497,51,Female,11,141,93,98.6,169,1,16,No,25,Normal
+P498,27,Male,9,145,85,98.7,148,10,177,Yes,100,Critical
+P499,78,Male,17,147,90,101.4,161,1,102,Yes,35,Moderate
+P500,32,Male,15,119,83,103.1,125,8,93,Yes,85,Critical
+P501,56,Female,22,103,95,97.8,99,5,123,No,25,Normal
+P502,55,Female,7,55,89,104.1,146,3,112,Yes,60,High Priority
+P503,12,Male,23,151,91,97.9,119,10,118,No,70,High Priority
+P504,62,Female,18,172,96,99.8,96,10,79,Yes,70,High Priority
+P505,47,Male,9,75,97,98.8,130,4,123,Yes,20,Normal
+P506,61,Female,23,174,81,98.8,106,2,117,Yes,60,High Priority
+P507,34,Male,7,170,81,102.4,100,1,91,Yes,70,High Priority
+P508,19,Male,15,132,91,97.5,95,9,141,Yes,65,High Priority
+P509,46,Female,3,50,80,99.1,161,5,170,No,55,High Priority
+P510,24,Male,12,64,77,98.1,174,5,52,Yes,55,High Priority
+P511,36,Female,16,124,99,102.3,145,4,68,Yes,55,High Priority
+P512,69,Female,4,117,94,104.5,150,4,178,Yes,45,Moderate
+P513,11,Female,18,67,80,104.6,174,2,24,Yes,55,High Priority
+P514,13,Male,19,103,94,102.8,110,3,168,No,30,Moderate
+P515,53,Female,19,96,84,101.2,176,6,119,Yes,60,High Priority
+P516,5,Female,9,162,98,103.1,94,4,81,Yes,55,High Priority
+P517,28,Male,5,109,86,102.5,154,9,112,Yes,90,Critical
+P518,1,Male,17,124,85,101.9,125,5,171,Yes,75,High Priority
+P519,60,Female,18,121,78,101.7,135,6,167,Yes,80,Critical
+P520,43,Male,20,130,77,104.1,114,3,80,Yes,80,Critical
+P521,63,Male,11,152,91,97.7,128,10,8,No,70,High Priority
+P522,23,Male,18,110,78,102.0,161,1,92,Yes,35,Moderate
+P523,86,Male,17,119,90,102.8,168,8,150,No,65,High Priority
+P524,10,Female,19,148,90,101.0,159,1,149,Yes,25,Normal
+P525,32,Female,6,66,87,99.0,179,6,10,No,60,High Priority
+P526,38,Female,16,157,99,101.6,133,1,115,Yes,25,Normal
+P527,55,Male,22,71,92,97.6,164,8,41,Yes,40,Moderate
+P528,31,Male,6,169,83,100.3,174,2,175,Yes,60,High Priority
+P529,15,Male,9,120,92,101.0,108,9,125,No,45,Moderate
+P530,49,Male,5,144,91,101.6,135,1,123,Yes,25,Normal
+P531,81,Male,2,83,91,101.0,176,8,7,No,50,Moderate
+P532,67,Male,1,118,84,103.3,111,4,68,Yes,75,High Priority
+P533,17,Female,13,131,93,98.1,133,7,119,Yes,55,High Priority
+P534,56,Female,21,127,79,103.0,175,7,30,No,100,Critical
+P535,69,Male,6,67,81,100.8,125,7,70,Yes,75,High Priority
+P536,84,Male,16,97,92,97.3,135,2,54,Yes,20,Normal
+P537,46,Female,5,79,91,99.0,118,8,117,Yes,40,Moderate
+P538,28,Male,14,162,75,100.2,104,3,124,Yes,65,High Priority
+P539,83,Male,17,106,89,104.1,170,10,153,No,105,Critical
+P540,20,Female,22,62,96,100.1,167,8,41,Yes,40,Moderate
+P541,27,Male,13,108,84,103.7,115,6,1,No,75,High Priority
+P542,74,Female,17,152,84,97.9,174,10,86,Yes,110,Critical
+P543,89,Male,2,113,79,104.3,123,5,101,No,80,Critical
+P544,59,Female,3,173,77,102.1,145,2,67,Yes,75,High Priority
+P545,89,Male,22,166,98,104.6,125,1,97,No,50,Moderate
+P546,50,Male,23,133,80,98.0,120,2,24,Yes,60,High Priority
+P547,61,Male,10,102,87,102.5,101,3,6,No,60,High Priority
+P548,17,Male,21,124,84,100.2,112,9,68,No,95,Critical
+P549,28,Male,18,92,80,99.4,128,8,30,Yes,70,High Priority
+P550,16,Male,8,90,86,102.5,154,8,154,No,85,Critical
+P551,75,Male,16,96,80,103.9,119,1,151,No,60,High Priority
+P552,56,Female,10,142,79,98.5,170,10,49,Yes,100,Critical
+P553,73,Male,1,95,77,101.2,154,3,150,Yes,55,High Priority
+P554,47,Male,12,172,79,101.5,163,4,134,Yes,70,High Priority
+P555,36,Female,12,149,92,98.1,174,2,176,Yes,30,Moderate
+P556,57,Male,19,115,94,101.9,112,10,162,No,50,Moderate
+P557,19,Male,6,152,90,102.3,97,2,72,No,45,Moderate
+P558,70,Male,19,131,84,99.2,171,5,178,No,85,Critical
+P559,56,Male,7,50,87,101.1,130,10,141,No,80,Critical
+P560,18,Female,15,145,83,99.4,126,2,16,No,60,High Priority
+P561,81,Male,3,57,94,100.0,154,1,32,Yes,15,Normal
+P562,39,Female,0,143,78,104.4,135,6,44,No,95,Critical
+P563,76,Female,7,50,91,99.4,137,5,99,Yes,35,Moderate
+P564,55,Male,21,59,81,100.0,154,3,55,No,45,Moderate
+P565,47,Female,18,84,86,101.1,173,2,94,No,40,Moderate
+P566,17,Male,10,74,88,100.4,140,3,24,Yes,45,Moderate
+P567,56,Male,16,145,78,103.4,171,8,99,Yes,105,Critical
+P568,72,Male,5,173,95,100.2,100,8,151,Yes,70,High Priority
+P569,65,Male,15,162,85,98.7,130,4,156,No,70,High Priority
+P570,7,Female,22,81,86,103.8,126,3,88,Yes,60,High Priority
+P571,22,Male,4,156,80,98.8,91,9,154,Yes,95,Critical
+P572,2,Male,1,173,84,100.2,175,1,117,No,55,High Priority
+P573,34,Female,6,103,87,101.6,143,2,12,No,40,Moderate
+P574,36,Female,10,65,95,102.6,156,6,102,Yes,45,Moderate
+P575,27,Female,1,86,84,102.6,151,8,40,Yes,85,Critical
+P576,48,Male,2,87,77,100.0,166,9,70,Yes,75,High Priority
+P577,5,Female,23,74,78,103.1,147,2,86,No,55,High Priority
+P578,76,Female,15,134,86,97.6,109,8,117,Yes,100,Critical
+P579,56,Female,8,73,82,99.7,150,2,29,No,40,Moderate
+P580,27,Female,18,72,92,98.7,118,9,105,Yes,45,Moderate
+P581,70,Female,23,76,99,97.2,113,8,59,Yes,50,Moderate
+P582,75,Male,6,70,85,99.0,122,10,12,No,90,Critical
+P583,87,Male,5,112,85,103.1,158,6,67,Yes,85,Critical
+P584,48,Male,23,176,78,100.3,173,8,91,Yes,90,Critical
+P585,53,Female,10,153,93,99.4,140,7,99,No,55,High Priority
+P586,30,Male,9,148,91,97.4,143,9,86,Yes,65,High Priority
+P587,53,Male,0,129,86,99.1,154,3,76,No,65,High Priority
+P588,53,Male,9,75,75,100.8,94,2,55,No,40,Moderate
+P589,43,Male,3,157,80,103.0,159,5,137,No,90,Critical
+P590,30,Female,11,73,84,102.3,170,4,176,No,65,High Priority
+P591,40,Female,12,102,86,98.4,167,4,27,Yes,50,Moderate
+P592,48,Female,13,63,91,98.6,98,3,30,Yes,15,Normal
+P593,70,Female,14,118,98,103.9,104,3,151,Yes,40,Moderate
+P594,36,Female,19,77,95,103.9,160,1,82,No,20,Normal
+P595,78,Female,23,85,98,102.7,139,6,157,No,55,High Priority
+P596,5,Female,14,136,92,97.5,99,5,94,Yes,45,Moderate
+P597,3,Female,17,85,89,99.4,147,5,52,Yes,55,High Priority
+P598,17,Male,21,156,81,104.6,109,8,74,No,105,Critical
+P599,12,Male,14,57,77,98.3,175,10,4,No,80,Critical
+P600,40,Female,3,110,83,102.0,93,3,122,No,45,Moderate
+P601,62,Male,4,152,80,103.1,159,2,113,No,75,High Priority
+P602,5,Male,13,111,88,97.4,149,7,131,Yes,65,High Priority
+P603,85,Male,19,94,90,104.0,131,2,131,Yes,35,Moderate
+P604,57,Female,6,169,79,101.3,145,9,177,No,95,Critical
+P605,18,Male,6,139,76,102.8,175,4,53,No,85,Critical
+P606,81,Female,13,68,90,99.0,159,3,141,Yes,25,Normal
+P607,38,Female,11,173,77,97.2,93,8,47,No,90,Critical
+P608,80,Female,9,173,98,104.0,172,9,52,No,90,Critical
+P609,12,Female,17,90,81,104.4,97,3,68,Yes,60,High Priority
+P610,27,Male,22,87,84,103.9,97,10,10,Yes,95,Critical
+P611,6,Male,3,177,81,99.3,92,4,177,No,70,High Priority
+P612,70,Female,8,122,92,103.5,134,1,171,Yes,50,Moderate
+P613,80,Female,21,104,87,97.9,161,2,160,No,50,Moderate
+P614,45,Male,4,65,89,101.4,98,9,41,Yes,75,High Priority
+P615,49,Female,16,70,90,103.9,121,5,45,Yes,40,Moderate
+P616,11,Female,22,116,81,99.5,114,6,2,Yes,60,High Priority
+P617,2,Female,5,137,93,102.9,106,10,33,No,85,Critical
+P618,69,Female,5,134,85,104.0,134,9,62,No,120,Critical
+P619,21,Female,2,117,75,101.5,150,4,13,No,50,Moderate
+P620,87,Female,7,59,77,103.4,138,6,39,Yes,85,Critical
+P621,77,Female,17,123,82,99.6,177,7,86,Yes,95,Critical
+P622,7,Male,2,105,77,99.6,176,7,83,No,65,High Priority
+P623,89,Female,5,137,76,97.3,144,7,34,Yes,95,Critical
+P624,34,Male,9,98,87,102.1,139,10,67,Yes,95,Critical
+P625,42,Female,0,93,80,100.3,139,3,126,Yes,45,Moderate
+P626,38,Female,21,105,95,103.3,171,2,163,Yes,25,Normal
+P627,64,Male,19,145,83,103.3,151,10,69,Yes,115,Critical
+P628,84,Male,13,130,78,101.9,169,8,41,No,100,Critical
+P629,45,Female,0,89,79,103.3,96,2,15,Yes,55,High Priority
+P630,29,Female,11,98,87,102.6,166,2,138,No,55,High Priority
+P631,6,Male,11,87,76,103.7,142,5,177,Yes,70,High Priority
+P632,82,Male,4,139,78,97.4,113,5,145,No,85,Critical
+P633,73,Female,18,112,76,97.8,152,6,174,Yes,70,High Priority
+P634,39,Male,22,73,83,104.3,137,6,59,No,75,High Priority
+P635,24,Female,19,109,96,99.6,155,10,114,Yes,50,Moderate
+P636,74,Male,13,123,94,101.0,136,7,138,Yes,65,High Priority
+P637,12,Female,21,138,92,100.7,151,3,33,Yes,35,Moderate
+P638,71,Male,12,82,90,102.7,124,8,170,No,65,High Priority
+P639,28,Male,20,108,91,101.2,164,5,102,Yes,25,Normal
+P640,12,Female,8,133,83,98.0,168,10,133,No,100,Critical
+P641,13,Male,5,149,76,102.0,91,8,75,No,90,Critical
+P642,10,Female,1,129,98,99.9,159,6,114,Yes,50,Moderate
+P643,64,Female,19,125,84,104.5,144,5,50,Yes,90,Critical
+P644,72,Female,23,152,79,100.0,171,5,115,Yes,85,Critical
+P645,16,Female,6,139,98,104.9,114,3,107,No,50,Moderate
+P646,31,Male,17,85,75,104.7,110,1,65,Yes,50,Moderate
+P647,87,Female,7,101,90,97.0,128,5,29,No,35,Moderate
+P648,39,Male,3,66,87,99.8,162,4,131,No,50,Moderate
+P649,40,Male,10,76,98,104.4,125,5,67,No,40,Moderate
+P650,25,Male,13,90,98,102.7,90,10,12,No,65,High Priority
+P651,9,Male,22,97,80,100.0,145,10,167,Yes,80,Critical
+P652,52,Male,18,133,99,102.2,163,4,56,No,55,High Priority
+P653,70,Male,1,153,87,104.7,174,6,104,Yes,105,Critical
+P654,59,Male,4,146,87,99.4,102,2,115,No,60,High Priority
+P655,11,Male,14,128,87,102.9,137,2,78,No,75,High Priority
+P656,61,Female,14,50,91,104.1,125,4,36,No,35,Moderate
+P657,84,Female,12,139,76,100.6,166,3,59,No,75,High Priority
+P658,55,Male,16,114,84,97.4,143,9,98,No,75,High Priority
+P659,33,Male,3,98,82,104.3,155,10,96,Yes,95,Critical
+P660,19,Male,8,124,91,101.5,152,3,105,Yes,35,Moderate
+P661,44,Female,0,111,99,97.6,105,6,103,Yes,30,Moderate
+P662,82,Male,8,166,79,102.9,137,2,7,Yes,85,Critical
+P663,67,Female,15,67,87,97.8,125,7,58,No,75,High Priority
+P664,49,Female,19,153,77,102.8,177,2,40,Yes,75,High Priority
+P665,1,Female,3,118,87,102.8,161,2,169,No,55,High Priority
+P666,63,Female,10,67,96,102.0,151,6,6,No,30,Moderate
+P667,21,Female,14,51,95,97.7,123,8,121,Yes,40,Moderate
+P668,5,Female,0,72,96,99.5,96,6,6,Yes,30,Moderate
+P669,56,Female,3,143,92,101.5,132,1,136,Yes,25,Normal
+P670,89,Male,11,142,83,98.0,172,10,118,Yes,110,Critical
+P671,73,Female,22,87,90,100.4,128,7,25,Yes,45,Moderate
+P672,24,Female,4,115,87,103.5,102,7,74,Yes,80,Critical
+P673,32,Female,14,131,94,103.0,93,3,157,No,50,Moderate
+P674,62,Male,13,122,95,102.7,98,1,88,Yes,40,Moderate
+P675,84,Male,8,134,82,103.4,144,3,156,Yes,90,Critical
+P676,22,Female,8,166,89,104.0,104,10,51,No,115,Critical
+P677,77,Female,16,50,78,101.8,127,7,154,Yes,75,High Priority
+P678,66,Female,23,156,83,99.1,178,2,85,No,70,High Priority
+P679,38,Female,22,148,88,98.8,141,10,66,No,100,Critical
+P680,74,Female,21,92,79,104.4,108,2,16,Yes,65,High Priority
+P681,10,Female,6,139,91,97.8,137,6,112,Yes,50,Moderate
+P682,35,Female,8,112,94,99.3,95,10,133,Yes,50,Moderate
+P683,62,Male,6,61,94,98.9,118,9,1,Yes,45,Moderate
+P684,67,Male,4,94,77,102.0,91,6,17,No,70,High Priority
+P685,64,Female,12,107,78,97.4,99,10,84,Yes,80,Critical
+P686,60,Male,7,99,75,97.1,149,4,145,Yes,50,Moderate
+P687,25,Female,23,117,98,99.4,125,4,80,No,20,Normal
+P688,19,Female,10,178,78,99.1,156,7,67,No,85,Critical
+P689,43,Male,18,77,86,103.5,173,8,30,No,85,Critical
+P690,18,Male,10,158,90,101.2,104,5,65,Yes,45,Moderate
+P691,33,Male,7,57,91,104.8,123,7,155,No,50,Moderate
+P692,87,Male,2,137,91,99.4,162,6,6,Yes,60,High Priority
+P693,75,Female,16,67,90,102.8,155,1,138,Yes,30,Moderate
+P694,63,Male,18,103,83,101.8,130,1,17,Yes,35,Moderate
+P695,51,Male,0,116,84,99.3,123,4,58,Yes,50,Moderate
+P696,51,Female,12,140,81,98.9,112,2,53,Yes,60,High Priority
+P697,22,Female,12,79,94,101.8,141,8,142,Yes,40,Moderate
+P698,44,Female,23,121,94,100.2,98,7,159,No,55,High Priority
+P699,62,Female,13,69,88,101.6,108,8,145,No,70,High Priority
+P700,24,Male,18,137,85,100.0,95,5,77,No,75,High Priority
+P701,12,Female,1,59,77,103.6,130,2,106,Yes,55,High Priority
+P702,53,Female,10,164,87,98.3,143,9,87,No,95,Critical
+P703,29,Female,19,61,84,103.7,103,3,23,No,60,High Priority
+P704,65,Female,16,57,78,98.7,97,8,28,No,70,High Priority
+P705,11,Male,3,104,80,100.1,95,9,110,Yes,75,High Priority
+P706,23,Male,14,130,76,99.8,141,5,82,Yes,75,High Priority
+P707,86,Male,12,113,91,103.4,148,6,68,Yes,55,High Priority
+P708,25,Female,5,73,82,102.5,138,10,163,No,95,Critical
+P709,80,Female,18,61,80,98.2,105,10,157,No,90,Critical
+P710,64,Male,7,153,83,101.2,177,10,173,No,100,Critical
+P711,1,Male,16,87,84,99.1,90,8,21,Yes,70,High Priority
+P712,7,Female,21,116,88,100.3,163,9,91,No,75,High Priority
+P713,88,Female,5,115,99,104.3,124,1,176,No,30,Moderate
+P714,80,Male,15,136,75,97.8,137,9,54,No,105,Critical
+P715,44,Male,0,117,87,102.2,132,5,10,Yes,70,High Priority
+P716,43,Female,19,58,83,104.9,123,4,59,Yes,65,High Priority
+P717,88,Female,17,97,83,103.4,114,5,3,Yes,80,Critical
+P718,74,Female,6,110,75,101.5,143,9,6,No,85,Critical
+P719,73,Female,5,155,94,102.3,179,8,59,No,85,Critical
+P720,87,Male,16,87,96,104.7,135,8,31,No,65,High Priority
+P721,7,Male,20,155,75,102.4,177,8,87,No,105,Critical
+P722,82,Female,15,164,95,103.9,140,10,40,Yes,95,Critical
+P723,66,Male,10,143,88,103.3,171,3,133,No,90,Critical
+P724,58,Male,23,133,97,99.5,138,4,23,Yes,40,Moderate
+P725,45,Female,6,50,93,100.3,100,1,59,No,5,Normal
+P726,18,Male,10,144,93,99.1,101,1,158,Yes,25,Normal
+P727,16,Male,4,99,78,103.0,172,1,152,No,50,Moderate
+P728,17,Female,16,167,87,104.6,108,6,150,No,95,Critical
+P729,23,Male,20,91,99,100.5,156,9,86,No,45,Moderate
+P730,68,Female,12,153,75,102.5,139,4,93,No,95,Critical
+P731,22,Male,17,155,91,102.4,173,8,44,No,75,High Priority
+P732,64,Male,19,179,96,102.0,134,8,26,No,60,High Priority
+P733,53,Female,0,61,97,98.0,90,9,46,Yes,45,Moderate
+P734,14,Male,1,101,82,98.8,150,10,17,Yes,80,Critical
+P735,8,Male,18,170,75,98.3,131,6,168,Yes,80,Critical
+P736,58,Male,5,61,83,101.1,147,8,14,No,70,High Priority
+P737,46,Female,21,50,85,98.1,154,3,102,Yes,45,Moderate
+P738,9,Female,3,171,81,99.5,109,3,157,Yes,65,High Priority
+P739,2,Female,16,81,88,97.3,161,4,75,No,50,Moderate
+P740,75,Female,7,136,91,100.1,173,10,127,Yes,80,Critical
+P741,7,Female,7,149,82,103.9,170,2,90,Yes,75,High Priority
+P742,21,Male,0,135,86,97.6,174,4,5,No,70,High Priority
+P743,43,Female,16,92,90,104.5,177,2,17,No,25,Normal
+P744,71,Male,16,98,85,104.6,123,8,134,Yes,95,Critical
+P745,53,Female,6,97,83,102.7,147,9,42,Yes,90,Critical
+P746,78,Female,11,172,78,99.7,93,1,15,No,65,High Priority
+P747,85,Male,23,80,94,101.6,153,7,72,No,45,Moderate
+P748,66,Female,9,61,84,100.6,170,8,56,Yes,80,Critical
+P749,24,Female,22,143,76,103.5,171,4,15,Yes,85,Critical
+P750,14,Female,21,172,89,104.7,125,3,92,Yes,80,Critical
+P751,89,Male,7,129,99,100.5,150,6,144,Yes,60,High Priority
+P752,59,Male,14,146,88,101.3,126,7,41,No,85,Critical
+P753,30,Female,5,155,88,103.7,100,6,163,Yes,95,Critical
+P754,63,Male,18,113,98,103.6,119,6,163,Yes,45,Moderate
+P755,4,Male,1,159,93,100.2,90,7,170,No,55,High Priority
+P756,40,Female,3,171,96,103.4,137,8,140,Yes,75,High Priority
+P757,52,Female,17,113,78,101.5,120,2,26,No,40,Moderate
+P758,21,Female,20,156,87,100.4,119,8,177,No,90,Critical
+P759,44,Male,2,140,92,100.2,163,4,86,No,40,Moderate
+P760,21,Male,2,154,93,100.9,169,4,47,Yes,40,Moderate
+P761,60,Male,20,117,77,99.3,113,2,92,No,40,Moderate
+P762,9,Male,19,140,77,100.4,166,9,173,Yes,95,Critical
+P763,1,Male,12,61,90,98.6,134,9,4,Yes,45,Moderate
+P764,24,Male,1,127,85,98.3,124,1,146,No,55,High Priority
+P765,51,Male,13,156,99,97.6,99,10,82,Yes,70,High Priority
+P766,68,Female,0,133,88,100.0,166,1,96,No,65,High Priority
+P767,4,Female,18,90,77,97.2,109,2,28,Yes,40,Moderate
+P768,53,Female,19,139,80,99.6,96,7,157,Yes,85,Critical
+P769,83,Male,6,77,85,100.4,101,4,85,No,60,High Priority
+P770,54,Male,3,140,86,104.6,102,8,44,No,105,Critical
+P771,50,Male,7,77,95,98.5,119,8,93,Yes,40,Moderate
+P772,66,Female,14,62,98,102.0,119,8,158,No,50,Moderate
+P773,55,Male,11,68,76,104.4,111,4,107,Yes,65,High Priority
+P774,77,Female,21,149,97,104.3,149,1,89,Yes,50,Moderate
+P775,68,Female,20,86,91,103.9,140,3,163,No,40,Moderate
+P776,18,Female,13,158,87,99.3,102,5,139,Yes,75,High Priority
+P777,80,Male,11,98,92,97.0,118,6,1,Yes,40,Moderate
+P778,75,Female,7,76,99,104.0,140,5,176,No,50,Moderate
+P779,89,Female,8,155,97,100.2,134,3,98,Yes,45,Moderate
+P780,46,Female,16,102,97,99.2,131,10,28,Yes,50,Moderate
+P781,41,Male,1,59,76,99.8,117,3,66,Yes,45,Moderate
+P782,82,Female,11,169,77,100.5,164,7,21,Yes,95,Critical
+P783,46,Male,10,114,79,103.1,162,6,89,Yes,75,High Priority
+P784,42,Female,0,160,85,98.7,141,2,72,No,60,High Priority
+P785,9,Female,13,88,93,99.2,146,10,91,No,50,Moderate
+P786,78,Male,18,172,98,102.4,166,7,142,No,80,Critical
+P787,52,Male,6,130,80,104.5,163,7,110,No,100,Critical
+P788,71,Male,13,113,75,103.9,139,2,73,Yes,65,High Priority
+P789,45,Male,14,145,83,99.3,176,4,30,Yes,70,High Priority
+P790,22,Female,16,92,87,101.3,101,3,110,Yes,45,Moderate
+P791,50,Female,12,90,87,102.5,174,7,26,Yes,80,Critical
+P792,45,Female,1,123,92,100.6,101,7,143,No,55,High Priority
+P793,35,Male,15,159,92,98.7,163,10,178,No,70,High Priority
+P794,75,Male,9,72,96,100.9,174,2,110,No,20,Normal
+P795,49,Male,9,92,99,103.5,121,10,150,Yes,65,High Priority
+P796,84,Female,22,103,78,101.1,165,2,54,No,50,Moderate
+P797,5,Female,0,114,88,104.4,107,6,137,No,75,High Priority
+P798,51,Female,9,144,77,102.9,95,5,138,Yes,90,Critical
+P799,63,Male,5,149,87,98.2,93,4,37,Yes,70,High Priority
+P800,49,Male,21,160,93,102.0,131,2,86,Yes,30,Moderate
+P801,5,Male,3,170,85,104.7,101,7,167,Yes,100,Critical
+P802,80,Female,6,118,85,102.5,99,8,167,No,95,Critical
+P803,5,Male,19,165,97,101.6,175,3,95,Yes,35,Moderate
+P804,36,Male,6,88,85,98.2,165,10,164,Yes,80,Critical
+P805,22,Male,22,153,99,97.1,103,5,129,Yes,45,Moderate
+P806,71,Female,8,139,80,99.3,117,1,58,No,65,High Priority
+P807,21,Female,23,60,79,97.2,116,6,33,Yes,60,High Priority
+P808,77,Female,8,60,85,102.2,151,3,127,No,70,High Priority
+P809,71,Female,5,66,98,104.8,169,2,164,Yes,35,Moderate
+P810,47,Female,9,89,79,97.9,169,2,137,Yes,40,Moderate
+P811,77,Female,22,75,90,99.1,124,3,54,No,25,Normal
+P812,24,Male,8,62,79,101.5,158,4,99,Yes,50,Moderate
+P813,35,Female,18,167,88,99.4,129,2,77,No,60,High Priority
+P814,84,Female,18,168,82,104.1,144,7,128,No,110,Critical
+P815,72,Female,17,140,96,100.8,155,3,51,No,45,Moderate
+P816,26,Male,19,83,86,103.5,95,10,174,No,95,Critical
+P817,88,Male,9,148,77,98.1,144,4,39,Yes,80,Critical
+P818,30,Female,14,81,80,97.8,100,5,17,Yes,55,High Priority
+P819,75,Male,7,81,94,100.6,131,8,56,Yes,50,Moderate
+P820,45,Female,13,111,81,104.3,97,3,175,No,60,High Priority
+P821,42,Male,9,109,76,103.5,164,7,51,No,80,Critical
+P822,53,Male,12,85,81,104.0,158,8,54,Yes,85,Critical
+P823,33,Male,14,59,93,101.7,168,8,140,Yes,40,Moderate
+P824,2,Male,20,159,94,102.7,131,1,15,Yes,40,Moderate
+P825,7,Female,18,87,79,99.2,143,10,177,Yes,80,Critical
+P826,58,Female,13,52,75,102.2,170,7,179,Yes,80,Critical
+P827,19,Male,9,87,94,103.3,161,2,42,No,25,Normal
+P828,80,Female,16,72,80,100.8,134,2,15,Yes,50,Moderate
+P829,8,Male,15,79,95,101.9,127,5,59,No,25,Normal
+P830,51,Male,16,54,82,103.5,176,2,64,Yes,55,High Priority
+P831,5,Female,17,152,80,101.0,153,8,64,Yes,90,Critical
+P832,51,Female,4,164,76,99.0,132,9,73,Yes,95,Critical
+P833,29,Female,12,106,94,102.1,166,8,93,Yes,55,High Priority
+P834,79,Female,17,57,77,98.2,113,3,99,No,55,High Priority
+P835,86,Male,0,61,87,105.0,151,9,113,Yes,100,Critical
+P836,74,Male,11,69,83,99.3,173,7,27,Yes,75,High Priority
+P837,83,Female,11,103,90,101.2,158,1,40,Yes,15,Normal
+P838,56,Male,23,70,95,98.2,139,3,52,Yes,15,Normal
+P839,60,Female,21,137,92,100.5,172,1,11,No,25,Normal
+P840,85,Male,3,82,79,98.9,158,7,164,No,75,High Priority
+P841,13,Male,15,173,90,102.8,178,1,88,Yes,40,Moderate
+P842,18,Female,18,84,81,100.7,162,1,29,No,35,Moderate
+P843,37,Male,18,115,92,99.2,160,10,61,No,50,Moderate
+P844,13,Male,6,144,77,101.4,165,1,18,Yes,55,High Priority
+P845,83,Female,18,152,80,99.0,166,10,39,No,110,Critical
+P846,50,Male,16,124,94,104.6,128,7,169,Yes,70,High Priority
+P847,28,Female,21,169,81,103.0,165,3,16,No,80,Critical
+P848,86,Male,3,109,96,102.7,124,8,174,No,65,High Priority
+P849,83,Male,5,135,98,98.7,96,2,20,No,40,Moderate
+P850,89,Female,0,143,99,100.4,146,8,20,No,70,High Priority
+P851,71,Male,14,78,79,102.4,177,8,15,No,95,Critical
+P852,7,Male,5,74,80,104.1,120,2,52,No,55,High Priority
+P853,20,Female,1,71,92,97.2,166,6,89,Yes,30,Moderate
+P854,82,Female,4,121,78,102.7,134,8,103,No,115,Critical
+P855,4,Male,16,129,83,100.7,130,5,123,No,75,High Priority
+P856,5,Male,13,179,87,97.6,142,2,138,No,60,High Priority
+P857,87,Male,4,100,85,99.0,176,5,54,Yes,65,High Priority
+P858,27,Male,20,157,82,98.9,129,7,49,No,85,Critical
+P859,11,Male,6,61,87,98.2,111,4,161,No,50,Moderate
+P860,60,Female,0,179,90,104.7,157,9,116,No,80,Critical
+P861,81,Male,17,87,93,103.9,122,4,149,Yes,45,Moderate
+P862,46,Male,14,90,85,100.3,142,2,114,No,40,Moderate
+P863,33,Male,19,126,93,97.5,172,10,79,No,70,High Priority
+P864,47,Female,6,123,98,100.3,119,4,21,Yes,40,Moderate
+P865,41,Female,17,59,99,98.6,172,1,82,Yes,5,Normal
+P866,78,Male,5,157,86,104.4,112,6,109,No,105,Critical
+P867,42,Male,20,86,99,104.8,158,6,142,No,45,Moderate
+P868,74,Female,4,133,98,100.2,106,1,39,Yes,35,Moderate
+P869,17,Male,4,73,85,103.7,148,8,94,No,85,Critical
+P870,14,Male,0,106,96,97.4,114,4,140,No,20,Normal
+P871,23,Male,10,74,86,100.8,161,8,97,Yes,70,High Priority
+P872,5,Male,5,139,93,103.0,161,5,75,Yes,60,High Priority
+P873,13,Female,20,171,93,102.0,128,8,100,Yes,60,High Priority
+P874,63,Male,22,122,92,103.1,145,9,72,Yes,80,Critical
+P875,28,Male,1,50,99,98.5,154,10,133,No,50,Moderate
+P876,88,Male,18,67,84,99.6,117,9,116,Yes,85,Critical
+P877,60,Male,21,118,91,98.4,104,9,114,Yes,45,Moderate
+P878,14,Female,15,119,96,102.0,144,7,115,Yes,35,Moderate
+P879,71,Female,18,154,93,102.7,113,10,97,No,95,Critical
+P880,3,Female,13,128,96,104.8,141,9,162,Yes,80,Critical
+P881,69,Female,23,104,86,97.5,110,9,67,No,85,Critical
+P882,9,Female,19,132,93,103.9,114,5,51,No,60,High Priority
+P883,66,Female,15,166,86,99.5,135,1,64,No,65,High Priority
+P884,6,Male,15,169,77,98.8,146,7,167,No,85,Critical
+P885,5,Male,12,178,87,98.5,148,6,54,Yes,80,Critical
+P886,78,Female,0,124,94,102.2,90,8,49,Yes,85,Critical
+P887,40,Female,0,55,79,97.5,136,5,79,Yes,55,High Priority
+P888,27,Male,14,68,87,100.1,165,5,145,No,55,High Priority
+P889,84,Male,23,65,85,97.1,90,9,75,Yes,85,Critical
+P890,36,Female,20,134,86,97.4,175,10,111,Yes,100,Critical
+P891,55,Male,20,64,83,102.9,158,1,28,Yes,50,Moderate
+P892,81,Male,1,78,75,102.2,135,9,101,No,100,Critical
+P893,58,Male,10,104,94,98.5,108,3,5,Yes,15,Normal
+P894,55,Female,8,166,96,101.9,134,2,177,Yes,30,Moderate
+P895,23,Male,10,52,82,103.9,171,9,179,Yes,90,Critical
+P896,9,Male,23,115,90,103.2,95,8,25,Yes,55,High Priority
+P897,3,Male,22,153,95,104.7,171,8,2,No,75,High Priority
+P898,83,Male,21,96,85,103.7,118,6,162,Yes,85,Critical
+P899,80,Female,23,114,85,103.3,98,3,100,No,70,High Priority
+P900,18,Female,22,84,80,97.7,129,5,36,Yes,55,High Priority
+P901,46,Male,11,62,87,104.8,146,3,139,No,60,High Priority
+P902,43,Female,19,165,92,97.1,133,2,139,No,30,Moderate
+P903,73,Male,10,156,86,103.0,109,10,166,Yes,125,Critical
+P904,83,Male,13,101,85,102.0,171,10,149,No,90,Critical
+P905,36,Male,5,148,82,104.7,122,5,15,No,90,Critical
+P906,74,Female,1,76,90,104.8,114,1,94,No,30,Moderate
+P907,76,Male,11,55,91,98.5,149,10,16,Yes,60,High Priority
+P908,68,Male,6,101,95,97.2,132,4,72,No,30,Moderate
+P909,67,Female,6,76,88,103.4,124,10,127,No,105,Critical
+P910,81,Male,13,54,80,101.6,117,10,117,Yes,90,Critical
+P911,35,Male,3,92,76,102.0,173,10,113,No,80,Critical
+P912,5,Female,21,145,95,104.4,147,3,74,Yes,50,Moderate
+P913,83,Male,18,117,80,97.0,155,8,114,No,80,Critical
+P914,41,Male,1,168,85,100.5,142,4,161,Yes,70,High Priority
+P915,22,Male,8,116,77,97.4,143,5,123,Yes,55,High Priority
+P916,83,Female,10,51,82,104.8,153,2,2,Yes,65,High Priority
+P917,5,Male,15,50,98,100.4,105,9,71,Yes,45,Moderate
+P918,32,Male,7,118,81,99.8,91,7,148,No,65,High Priority
+P919,39,Male,17,150,88,100.9,119,2,87,No,60,High Priority
+P920,32,Male,5,65,81,99.3,173,10,139,No,80,Critical
+P921,13,Male,15,127,87,98.3,176,5,56,Yes,75,High Priority
+P922,69,Male,2,168,98,99.4,128,7,151,No,65,High Priority
+P923,76,Female,16,78,82,99.8,112,1,173,No,45,Moderate
+P924,60,Female,3,116,83,100.5,170,10,148,No,80,Critical
+P925,39,Female,3,123,94,98.1,175,1,19,No,25,Normal
+P926,89,Male,1,126,75,97.1,154,2,140,Yes,70,High Priority
+P927,41,Male,1,115,84,99.5,152,5,73,No,55,High Priority
+P928,53,Female,10,163,97,101.2,114,8,32,Yes,60,High Priority
+P929,42,Male,23,84,97,102.9,139,8,68,Yes,55,High Priority
+P930,38,Male,15,117,82,99.3,142,7,38,Yes,65,High Priority
+P931,28,Female,14,155,92,99.9,101,4,122,No,40,Moderate
+P932,52,Male,11,58,75,101.3,153,8,125,Yes,70,High Priority
+P933,41,Male,19,147,89,102.2,149,2,156,No,75,High Priority
+P934,81,Female,2,158,93,101.4,90,6,151,No,60,High Priority
+P935,7,Female,0,75,92,99.9,152,7,110,No,35,Moderate
+P936,31,Male,17,138,95,101.5,154,6,105,Yes,50,Moderate
+P937,48,Female,7,57,86,98.9,115,6,158,Yes,60,High Priority
+P938,47,Male,8,104,78,102.8,112,10,20,No,95,Critical
+P939,52,Male,20,137,77,100.4,111,4,1,No,70,High Priority
+P940,22,Male,11,109,91,102.5,179,8,85,Yes,55,High Priority
+P941,56,Male,5,79,93,100.1,111,9,58,No,45,Moderate
+P942,44,Male,20,78,94,101.1,156,1,114,Yes,5,Normal
+P943,56,Female,20,174,85,104.9,148,4,34,Yes,85,Critical
+P944,9,Female,15,76,85,100.5,166,5,40,No,55,High Priority
+P945,51,Male,12,83,99,99.7,172,6,168,Yes,30,Moderate
+P946,70,Female,6,123,79,104.6,138,1,155,Yes,80,Critical
+P947,66,Female,1,52,97,100.5,137,3,70,Yes,25,Normal
+P948,31,Male,5,164,83,98.3,108,2,55,Yes,60,High Priority
+P949,59,Female,14,61,90,97.6,91,5,129,Yes,25,Normal
+P950,7,Male,4,99,88,101.1,128,3,59,Yes,45,Moderate
+P951,10,Male,5,72,75,99.7,162,5,10,No,55,High Priority
+P952,27,Male,8,135,82,99.7,103,6,85,Yes,80,Critical
+P953,63,Female,20,108,94,100.3,175,6,16,No,30,Moderate
+P954,28,Male,18,138,96,101.5,168,9,83,Yes,65,High Priority
+P955,72,Male,1,169,89,104.3,170,3,67,Yes,90,Critical
+P956,81,Female,1,100,80,100.7,118,6,139,No,70,High Priority
+P957,81,Female,0,166,91,100.6,136,3,176,Yes,45,Moderate
+P958,9,Male,4,146,86,100.8,103,1,106,No,55,High Priority
+P959,31,Male,1,152,99,101.3,131,5,69,No,45,Moderate
+P960,32,Female,13,102,87,101.8,133,6,114,No,60,High Priority
+P961,15,Female,16,89,93,98.5,127,2,28,Yes,10,Normal
+P962,20,Male,5,138,77,100.1,129,6,80,Yes,80,Critical
+P963,8,Female,22,154,86,103.1,164,4,127,No,85,Critical
+P964,54,Male,16,150,94,100.3,126,5,120,Yes,45,Moderate
+P965,52,Male,20,140,79,98.6,121,6,19,Yes,80,Critical
+P966,58,Male,0,98,97,98.8,130,3,165,No,15,Normal
+P967,71,Female,5,77,97,102.4,91,2,104,Yes,35,Moderate
+P968,78,Male,16,139,77,99.9,127,5,103,No,85,Critical
+P969,45,Female,5,154,97,99.9,112,5,137,No,45,Moderate
+P970,48,Male,23,56,80,104.6,171,3,177,No,60,High Priority
+P971,74,Male,4,73,81,99.7,96,2,23,No,50,Moderate
+P972,55,Male,18,124,91,101.8,116,10,81,Yes,70,High Priority
+P973,39,Female,15,96,89,98.0,121,4,150,No,50,Moderate
+P974,47,Female,22,170,92,99.5,108,6,87,Yes,50,Moderate
+P975,40,Female,1,84,88,104.3,90,1,122,No,50,Moderate
+P976,45,Male,20,93,87,103.3,159,7,60,No,80,Critical
+P977,71,Female,7,129,97,97.2,104,4,72,Yes,50,Moderate
+P978,7,Male,11,51,82,101.2,175,5,32,Yes,55,High Priority
+P979,64,Male,2,89,81,101.2,91,7,60,No,65,High Priority
+P980,16,Female,20,123,87,98.0,102,4,126,Yes,70,High Priority
+P981,57,Female,3,108,97,100.7,161,10,39,Yes,50,Moderate
+P982,85,Female,3,138,91,103.5,105,1,19,No,50,Moderate
+P983,66,Female,7,71,97,100.9,132,1,51,No,15,Normal
+P984,36,Female,20,80,91,104.3,153,2,82,No,25,Normal
+P985,64,Male,15,70,92,100.7,149,1,11,Yes,5,Normal
+P986,55,Male,17,93,88,99.9,163,10,67,Yes,80,Critical
+P987,16,Female,0,53,77,98.9,175,10,170,Yes,80,Critical
+P988,61,Male,23,124,94,99.5,122,4,99,Yes,40,Moderate
+P989,34,Male,0,165,84,102.3,126,10,165,Yes,115,Critical
+P990,84,Male,7,127,76,101.8,175,9,27,Yes,105,Critical
+P991,70,Male,19,61,83,102.4,114,1,124,Yes,60,High Priority
+P992,74,Female,3,63,95,98.3,130,3,33,No,25,Normal
+P993,32,Male,23,161,76,102.4,133,1,88,Yes,70,High Priority
+P994,33,Female,0,126,89,103.1,173,2,19,No,75,High Priority
+P995,45,Female,23,99,79,103.3,130,5,12,No,70,High Priority
+P996,6,Male,16,63,85,103.0,91,2,7,Yes,55,High Priority
+P997,50,Female,13,52,86,100.2,172,5,159,Yes,55,High Priority
+P998,53,Male,2,93,81,100.7,164,6,160,No,60,High Priority
+P999,13,Female,2,171,82,103.8,121,4,112,No,85,Critical
+P1000,35,Female,4,104,89,102.9,157,8,62,Yes,85,Critical
